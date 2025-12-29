@@ -1,0 +1,25 @@
+{
+  "name": "lesson_01",
+  "version": "1.0.0",
+  "description": "HTTP server reads data.json and returns employee full name by role from URL (/director, /manager, /driver)",
+  "homepage": "https://github.com/IhorProkop/nodejs-course#readme",
+  "bugs": {
+    "url": "https://github.com/IhorProkop/nodejs-course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorProkop/nodejs-course.git"
+  },
+  "license": "ISC",
+  "author": "Ihor Prokop",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.mjs",
+    "start": "node index.mjs"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
